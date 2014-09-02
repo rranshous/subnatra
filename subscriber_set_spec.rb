@@ -29,7 +29,7 @@ describe SubscriberSet do
 
   context "multiple callbacks added" do
     let(:callback_urls) { ['http://www.example.com/here?test=1',
-                           'https://otherexample.org?take=2',
+                           'https://otherexample.org?take=2&try=2',
                            'http://here.there.and.biz/take?key=212'] }
 
     context "#get_callbacks" do
